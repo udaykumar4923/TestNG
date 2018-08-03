@@ -1,7 +1,7 @@
 package tests;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
@@ -17,52 +17,50 @@ public class Test1 {
 	
 	@BeforeSuite
 	public void firstTest() {
-//		driver = new ChromeDriver();
-//		driver.get("http://www.bing.com");
-	System.out.println("starting suite");	
+		Reporter.log("starting suite");	
 	}
 	
 	@BeforeTest
 	public void beforeTest() {
-		System.out.println("running before Test");
+		Reporter.log("running before Test");
 	}
 	
 	@BeforeClass
 	public void beforeClass() {
-		System.out.println("running before class");
+		Reporter.log("running before class");
 	}
 	
 	
 	@BeforeMethod
 	public void beforeMethod() {
-		System.out.println("running before method");
+		Reporter.log("running before method");
 	}
 	
-	@Test
-	public void onlyTest() {
-		System.out.println("actual test");
-	}
+	 @Test
+	 public void test() {
+		 Reporter.log("hello world");
+	  }
 	
 	@AfterMethod
 	public void afterMethod() {
-		System.out.println("running after method");
+		Reporter.log("running after method");
 	}
 	
 	
 	@AfterClass
 	public void afterClass() {
-		System.out.println("running after class");
+		Reporter.log("running after class");
 	}
 	
 	
 	@AfterTest
 	public void afterTest() {
-		System.out.println("running after Test");
+		Reporter.log("running after Test");
 	}
 	
 
 	@AfterSuite
 	public void SecondTestOfFirstPAge() {
-		System.out.println("ending suite");
+		Reporter.log("ending suite");
 	}
 }

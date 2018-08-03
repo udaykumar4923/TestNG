@@ -1,49 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
+    <line>
+      <![CDATA[starting suite]]>
+    </line>
+    <line>
+      <![CDATA[running before Test]]>
+    </line>
+    <line>
+      <![CDATA[running before class]]>
+    </line>
+    <line>
+      <![CDATA[running before method]]>
+    </line>
+    <line>
+      <![CDATA[hello world]]>
+    </line>
+    <line>
+      <![CDATA[running after method]]>
+    </line>
+    <line>
+      <![CDATA[running after class]]>
+    </line>
+    <line>
+      <![CDATA[this is the first test of the second file ]]>
+    </line>
+    <line>
+      <![CDATA[this is the second test of the second file ]]>
+    </line>
+    <line>
+      <![CDATA[this is the fourth test of the second file]]>
+    </line>
+    <line>
+      <![CDATA[running after Test]]>
+    </line>
+    <line>
+      <![CDATA[this is first function of third class]]>
+    </line>
+    <line>
+      <![CDATA[ending suite]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16" started-at="2018-07-19T09:02:38Z" finished-at="2018-07-19T09:02:38Z">
+  <suite name="Suite" duration-ms="53" started-at="2018-07-31T09:25:24Z" finished-at="2018-07-31T09:25:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16" started-at="2018-07-19T09:02:38Z" finished-at="2018-07-19T09:02:38Z">
-      <class name="tests.Test1">
-        <test-method status="PASS" signature="firstTest()[pri:0, instance:tests.Test1@18be83e4]" name="firstTest" is-config="true" duration-ms="6" started-at="2018-07-19T14:32:38Z" finished-at="2018-07-19T14:32:38Z">
+    <test name="Test" duration-ms="28" started-at="2018-07-31T09:25:24Z" finished-at="2018-07-31T09:25:24Z">
+      <class name="tests.Test2">
+        <test-method status="PASS" signature="secondTest()[pri:0, instance:tests.Test2@343f4d3d]" name="secondTest" duration-ms="3" started-at="2018-07-31T14:55:24Z" finished-at="2018-07-31T14:55:24Z">
           <reporter-output>
+            <line>
+              <![CDATA[this is the first test of the second file ]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- firstTest -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:tests.Test1@18be83e4]" name="beforeTest" is-config="true" duration-ms="1" started-at="2018-07-19T14:32:38Z" finished-at="2018-07-19T14:32:38Z">
+        </test-method> <!-- secondTest -->
+        <test-method status="PASS" signature="Testtwopointtwo()[pri:0, instance:tests.Test2@343f4d3d]" name="Testtwopointtwo" duration-ms="2" started-at="2018-07-31T14:55:24Z" finished-at="2018-07-31T14:55:24Z">
           <reporter-output>
+            <line>
+              <![CDATA[this is the second test of the second file ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Testtwopointtwo -->
+        <test-method status="PASS" signature="Testtwopointfour()[pri:0, instance:tests.Test2@343f4d3d]" name="Testtwopointfour" duration-ms="2" started-at="2018-07-31T14:55:24Z" finished-at="2018-07-31T14:55:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[this is the fourth test of the second file]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Testtwopointfour -->
+      </class> <!-- tests.Test2 -->
+      <class name="tests.Test1">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:tests.Test1@91161c7]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-07-31T14:55:24Z" finished-at="2018-07-31T14:55:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[running before Test]]>
+            </line>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.Test1@18be83e4]" name="beforeClass" is-config="true" duration-ms="0" started-at="2018-07-19T14:32:38Z" finished-at="2018-07-19T14:32:38Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.Test1@91161c7]" name="beforeClass" is-config="true" duration-ms="0" started-at="2018-07-31T14:55:24Z" finished-at="2018-07-31T14:55:24Z">
           <reporter-output>
+            <line>
+              <![CDATA[running before class]]>
+            </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="onlyTest()[pri:0, instance:tests.Test1@18be83e4]" name="onlyTest" duration-ms="5" started-at="2018-07-19T14:32:38Z" finished-at="2018-07-19T14:32:38Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.Test1@91161c7]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-07-31T14:55:24Z" finished-at="2018-07-31T14:55:24Z">
           <reporter-output>
-          </reporter-output>
-        </test-method> <!-- onlyTest -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.Test1@18be83e4]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-07-19T14:32:38Z" finished-at="2018-07-19T14:32:38Z">
-          <reporter-output>
+            <line>
+              <![CDATA[running before method]]>
+            </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.Test1@18be83e4]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-07-19T14:32:38Z" finished-at="2018-07-19T14:32:38Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:tests.Test1@91161c7]" name="test" duration-ms="6" started-at="2018-07-31T14:55:24Z" finished-at="2018-07-31T14:55:24Z">
           <reporter-output>
+            <line>
+              <![CDATA[hello world]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.Test1@91161c7]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-07-31T14:55:24Z" finished-at="2018-07-31T14:55:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[running after method]]>
+            </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.Test1@18be83e4]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-07-19T14:32:38Z" finished-at="2018-07-19T14:32:38Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.Test1@91161c7]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-07-31T14:55:24Z" finished-at="2018-07-31T14:55:24Z">
           <reporter-output>
+            <line>
+              <![CDATA[running after class]]>
+            </line>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:tests.Test1@18be83e4]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-07-19T14:32:38Z" finished-at="2018-07-19T14:32:38Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:tests.Test1@91161c7]" name="afterTest" is-config="true" duration-ms="1" started-at="2018-07-31T14:55:24Z" finished-at="2018-07-31T14:55:24Z">
           <reporter-output>
+            <line>
+              <![CDATA[running after Test]]>
+            </line>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="SecondTestOfFirstPAge()[pri:0, instance:tests.Test1@18be83e4]" name="SecondTestOfFirstPAge" is-config="true" duration-ms="1" started-at="2018-07-19T14:32:38Z" finished-at="2018-07-19T14:32:38Z">
+      </class> <!-- tests.Test1 -->
+    </test> <!-- Test -->
+    <test name="onlyThirdFile" duration-ms="3" started-at="2018-07-31T09:25:24Z" finished-at="2018-07-31T09:25:24Z">
+      <class name="tests.Test1">
+        <test-method status="PASS" signature="firstTest()[pri:0, instance:tests.Test1@91161c7]" name="firstTest" is-config="true" duration-ms="8" started-at="2018-07-31T14:55:24Z" finished-at="2018-07-31T14:55:24Z">
           <reporter-output>
+            <line>
+              <![CDATA[starting suite]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method status="PASS" signature="SecondTestOfFirstPAge()[pri:0, instance:tests.Test1@91161c7]" name="SecondTestOfFirstPAge" is-config="true" duration-ms="0" started-at="2018-07-31T14:55:24Z" finished-at="2018-07-31T14:55:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ending suite]]>
+            </line>
           </reporter-output>
         </test-method> <!-- SecondTestOfFirstPAge -->
       </class> <!-- tests.Test1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="tests.Test3">
+        <test-method status="PASS" signature="func1()[pri:0, instance:tests.Test3@59ec2012]" name="func1" duration-ms="1" started-at="2018-07-31T14:55:24Z" finished-at="2018-07-31T14:55:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[this is first function of third class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- func1 -->
+      </class> <!-- tests.Test3 -->
+    </test> <!-- onlyThirdFile -->
+  </suite> <!-- Suite -->
 </testng-results>
